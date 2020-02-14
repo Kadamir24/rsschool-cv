@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Amir | CV</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>CV</h1>
+    <h2>Amir Kaniyev</h2>
+    <h3>Contact Information</h3>
+    <ul>
+      <li>email: amir.kaniyev@gmail.com</li>
+      <li>
+        <a href="https://github.com/Kadamir24">github</a>
+      </li>
+    </ul>
+    <h3>Goal</h3>
+    <p>I am an engineer who wants to upgrade his programmer skills as soon as possible</p>
+    <h3>Skills</h3>
+    <ul>
+      <li>Golang</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>R</li>
+    </ul>
+    <h3>Code example</h3>
+    <pre><code class="go language-go">func main() {
+      args0 := os.Args[1:]
+    
+      f, err := os.Open("standard.txt")
+      if err != nil {
+        return
+      }
+      defer f.Close()
+    
+      var args string
+    
+      for _, word0 := range args0 {
+        args = args + word0 + " "
+      }
+    
+      words := strings.Split(args, "\\n")
+      for _, word := range words {
+        for i := 0; i < 8; i++ {
+          for _, letter := range word {
+            fmt.Print(ReadLine(f, 2+((int(letter)-32)*9)+i))
+          }
+          fmt.Println()
+        }
+      }
+    }
+    
+    func ReadLine(f *os.File, n int) string {
+      f.Seek(0, 0) //Устанавливает файловый указатель в определенную позицию
+      bf := bufio.NewReader(f)
+      var line string
+    
+      for lnum := 0; lnum < n; lnum++ {
+        line, _ = bf.ReadString('\n')
+        line = strings.TrimSuffix(line, "\n")
+    
+      }
+      return line
+    }
+
+  </code></pre>
+    <h3>Education</h3>
+    <ol type="i">
+      <li><strong>Kazakh-British Technical University. 2013-2017</strong></li>
+      <li><strong>Alem school 2019-present</strong></li>
+    </ol>
+    <h3>English</h3>
+    <ul>
+      <li>B1-Intermediate</li>
+    </ul>
+  </div>
+</body>>
