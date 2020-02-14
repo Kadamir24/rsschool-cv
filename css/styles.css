@@ -1,0 +1,16 @@
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 1.2em;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+pre code {
+    display: block;
+    padding: 20px;
+    color: #3e1183;
+    background-color: #03ffa1;
+    border: 1px solid #999;
+}
+
+
