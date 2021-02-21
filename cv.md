@@ -19,6 +19,7 @@ Thanks to the knowledge gained during my studies at Rs-school, I am ready to loo
 - TypeScript
 - React
 - Angular(beginner)
+- NestJs(beginner)
 - Golang
 - HTML
 - CSS(SASS,SCSS)
