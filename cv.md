@@ -5,64 +5,44 @@
 ### Contact information
 - email: amir.kaniyev@gmail.com
 - github: [tab here to open my git](https://github.com/Kadamir24)
+- mobile: +7(777)2048811
+- telegram: @Kadamir
+- discord: Kadamir24#6125
 
 
 ### Goal
-I am an engineer who wants to upgrade his programmer skills as soon as possible
+My main goal is to change my profession from the one that I never liked to the one in which I began to show interest a long time ago.
+Thanks to the knowledge gained during my studies at Rs-school, I am ready to look for a junior front-end developer job in order to continue developing on real projects and I hope I will be of benefit to the company.
 
-###Skills
+### Skills
+- JavaScript
+- TypeScript
+- React
+- Angular(beginner)
 - Golang
 - HTML
-- CSS
-- R
+- CSS(SASS,SCSS)
 
-###Code example
+### Projects
+1. [Pixel Tale Game](https://github.com/temir-cs/rs-clone) - a 2D pixel art platformer game. The final team project made for RS Clone Wars task during RS School Javascript 2020Q3 Course. Written in TypeScript and on Phaser 3 engine.
+2. [Covid-19 dashboard](https://kadamir24-covid-dashboard.netlify.app/) - COVID-19 Real-time world map and statistics. [Repo with code](https://github.com/rolling-scopes-school/kadamir24-JS2020Q3/tree/covid-dashboard)
+3. [English for kids](https://kadamir24-english-for-kids.netlify.app/) - simple English learning game for kids [Repo with code](https://github.com/rolling-scopes-school/kadamir24-JS2020Q3/tree/english-for-kids)
+4. [Gem-puzzle](https://rolling-scopes-school.github.io/kadamir24-JS2020Q3/gem-puzzle/) - simple gem-puzzle game with different settings. [Repo with code](https://github.com/rolling-scopes-school/kadamir24-JS2020Q3/tree/gem-puzzle)
 
-```go
-func main() {
-	args0 := os.Args[1:]
+### Experience
+1. Aug 2017 – 2018: **Weatherford International**, Artificial-Lift Systems as Field engineer. Aktau.
 
-	f, err := os.Open("standard.txt")
-	if err != nil {
-		return
-	}
-	defer f.Close()
+2. Feb 2021 - present: **TSARKA**, React front-end intern
 
-	var args string
+### Education
 
-	for _, word0 := range args0 {
-		args = args + word0 + " "
-	}
+1. **Kazakh-British Technical University. 2013-2017**
 
-	words := strings.Split(args, "\\n")
-	for _, word := range words {
-		for i := 0; i < 8; i++ {
-			for _, letter := range word {
-				fmt.Print(ReadLine(f, 2+((int(letter)-32)*9)+i))
-			}
-			fmt.Println()
-		}
-	}
-}
+2. **Alem school 2019-present**
 
-func ReadLine(f *os.File, n int) string {
-	f.Seek(0, 0) //Устанавливает файловый указатель в определенную позицию
-	bf := bufio.NewReader(f)
-	var line string
+3. **Rolling Scopes School  Sep 2020 - Feb 2021**
 
-	for lnum := 0; lnum < n; lnum++ {
-		line, _ = bf.ReadString('\n')
-		line = strings.TrimSuffix(line, "\n")
+4. **Udemy: Web-разработчик 2020, Полный курс по JavaScript + React - с нуля до результата**
 
-	}
-	return line
-}
-```
-
-###Education
-
-i. **Kazakh-British Technical University. 2013-2017**
-ii.**Alem school 2019-present**
-
-###English
-- B1 - Intermediate
+### English
+- B2 - Upper Intermediate

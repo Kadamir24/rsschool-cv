@@ -12,73 +12,78 @@
 <body>
   <div class="container">
     <h1>CV</h1>
-    <img src="img/Spike.jpg" alt="image" width="300" height="260">
+    <img src="img/ava.jpg" alt="image" width="300" height="260">
     <h2>Amir Kaniyev</h2>
     <h3>Contact Information</h3>
     <ul>
       <li>email: amir.kaniyev@gmail.com</li>
       <li>
-        <a href="https://github.com/Kadamir24">github</a>
+        <a href="https://github.com/Kadamir24">Github</a>
       </li>
     </ul>
     <h3>Goal</h3>
-    <p>I am an engineer who wants to upgrade his programmer skills as soon as possible</p>
-    <h3>Skills</h3>
-    <ul>
-      <li>Golang</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>R</li>
-    </ul>
-    <h3>Code example</h3>
-    <pre><code class="go language-go">func main() {
-      args0 := os.Args[1:]
-    
-      f, err := os.Open("standard.txt")
-      if err != nil {
-        return
-      }
-      defer f.Close()
-    
-      var args string
-    
-      for _, word0 := range args0 {
-        args = args + word0 + " "
-      }
-    
-      words := strings.Split(args, "\\n")
-      for _, word := range words {
-        for i := 0; i < 8; i++ {
-          for _, letter := range word {
-            fmt.Print(ReadLine(f, 2+((int(letter)-32)*9)+i))
-          }
-          fmt.Println()
-        }
-      }
-    }
-    
-    func ReadLine(f *os.File, n int) string {
-      f.Seek(0, 0) //Устанавливает файловый указатель в определенную позицию
-      bf := bufio.NewReader(f)
-      var line string
-    
-      for lnum := 0; lnum < n; lnum++ {
-        line, _ = bf.ReadString('\n')
-        line = strings.TrimSuffix(line, "\n")
-    
-      }
-      return line
-    }
+    <p>
+      My main goal is to change my profession from the one that I never liked to the one in which I began to show interest a long time ago.
+Thanks to the knowledge gained during my studies at Rs-school, I am ready to look for a junior front-end developer job in order to continue developing on real projects and I hope I will be of benefit to the company.
+    </p>
+    <div>
+      <h3>Skills</h3>
+      <ul>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>React</li>
+        <li>Angular(beginner)</li>
+        <li>NestJs(beginner)</li>
+        <li>Golang</li>
+        <li>HTML</li>
+        <li>CSS(SASS,SCSS)</li>
+      </ul>
+    </div>
 
-  </code></pre>
-    <h3>Education</h3>
-    <ol type="i">
-      <li><strong>Kazakh-British Technical University. 2013-2017</strong></li>
-      <li><strong>Alem school 2019-present</strong></li>
+   <div>
+    <h3>Projects</h3>
+    <ol type="1">
+      <li>
+        <a href="https://github.com/temir-cs/rs-clone">Pixel Tale Game</a> - a 2D pixel art platformer game. The final team project made for RS Clone Wars task during RS School Javascript 2020Q3 Course. Written in TypeScript and on Phaser 3 engine.
+      </li>
+      <li>
+        <a href="https://kadamir24-covid-dashboard.netlify.app/">Covid-19 dashboard</a> - COVID-19 Real-time world map and statistics.
+        <a href="https://github.com/rolling-scopes-school/kadamir24-JS2020Q3/tree/covid-dashboard">Repo with code</a>
+      </li>
+      <li>
+        <a href="https://kadamir24-english-for-kids.netlify.app/">English for kids</a> - simple English learning game for kids
+        <a href="https://github.com/rolling-scopes-school/kadamir24-JS2020Q3/tree/english-for-kids">Repo with code</a>
+      </li>
+      <li>
+        <a href="https://rolling-scopes-school.github.io/kadamir24-JS2020Q3/gem-puzzle/">Gem-puzzle</a> - simple gem-puzzle game with different settings.
+        <a href="https://github.com/rolling-scopes-school/kadamir24-JS2020Q3/tree/gem-puzzle">Repo with code</a>
+      </li>
     </ol>
-    <h3>English</h3>
-    <ul>
-      <li>B1-Intermediate</li>
-    </ul>
+   </div>
+
+   <div>
+    <h3>Experience</h3>
+    <ol type="1">
+      <li>Aug 2017 – 2018: <strong>Weatherford International</strong> Artificial-Lift Systems as Field engineer. Aktau.</li>
+      <li>Feb 2021 - present: <strong>TSARKA</strong>, React front-end intern</li>
+    </ol>
+   </div>
+
+    <div>
+      <h3>Education</h3>
+      <ol type="i">
+        <li><strong>Kazakh-British Technical University. 2013-2017</strong></li>
+        <li><strong>Alem school 2019-present</strong></li>
+        <li><strong>Rolling Scopes School  Sep 2020 - Feb 2021</strong></li>
+        <li><strong>Udemy: Web-разработчик 2020, Полный курс по JavaScript + React - с нуля до результата</strong></li>
+      </ol>
+    </div>
+
+    <div>
+      <h3>English</h3>
+      <ul>
+        <li>B2 - Upper Intermediate</li>
+      </ul>
+    </div>
   </div>
 </body>
